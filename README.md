@@ -1,4 +1,4 @@
-card-only
+Card Only
 =========
 
-Observer to disable a payment method based on product attribute
+Magento Observer to disable a payment method based on product attribute
