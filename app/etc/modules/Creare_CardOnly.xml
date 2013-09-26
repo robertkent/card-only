@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Creare_CardOnly>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Creare_CardOnly>
+    </modules>
+</config>

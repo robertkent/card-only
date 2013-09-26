@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Creare_CardOnly>
+			<version>0.1.0</version>
+		</Creare_CardOnly>
+	</modules>
+	<global>
+		<events>
+			<payment_method_is_active>
+				<observers>
+					<card_only>
+						<type>singleton</type>
+						<class>cardonly/observer</class>
+						<method>cardOnly</method>
+					</card_only>
+				</observers>
+			</payment_method_is_active>
+		</events> 
+		<models>
+			<cardonly>
+				<class>Creare_CardOnly_Model</class>
+				<resourceModel>cardonly_mysql4</resourceModel>
+			</cardonly>
+		</models>
+	</global>
+</config>
