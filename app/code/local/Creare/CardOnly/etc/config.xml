@@ -23,5 +23,14 @@
 				<resourceModel>cardonly_mysql4</resourceModel>
 			</cardonly>
 		</models>
+		<sales>
+            <quote>
+                <item>
+                    <product_attributes>
+                        <card_only/>
+                    </product_attributes>
+                </item>
+            </quote>
+        </sales>
 	</global>
 </config>

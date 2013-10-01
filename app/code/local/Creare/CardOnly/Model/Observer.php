@@ -11,8 +11,7 @@ class Creare_CardOnly_Model_Observer
 		
 		foreach (Mage::getSingleton('checkout/cart')->getQuote()->getAllVisibleItems() as $item)
 		{
-			$product = Mage::getModel('catalog/product')->load($item->getProductId());
-			if($product->getCardOnly()){
+			if($item->getProduct()->getCardOnly()){
 				$cardonly = true;	
 			}
 		}
